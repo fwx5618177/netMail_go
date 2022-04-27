@@ -1,0 +1,7 @@
+./mhsendmail test@mailhog.local <<EOF
+From: App <fwx@fwx.com>
+To: Test <fengwenxuan2006@126.com>
+Subject: Test message
+
+Some content!
+EOF

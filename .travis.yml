@@ -1,0 +1,24 @@
+language: go
+
+go:
+  - 1.9.x
+  - 1.10.x
+  - 1.11.x
+  - tip
+
+sudo: required
+
+install:
+  - echo "start"
+
+script:
+  - echo "script"
+
+# install:
+#   - go get golang.org/x/lint/golint
+#   - export PATH=$GOPATH/bin:$PATH
+#   - go install ./...
+
+# script:
+#   - verify/all.sh -v
+#   - go test ./...
